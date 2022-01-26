@@ -1,11 +1,11 @@
-Rem https://github.com/cpp-stdio/English.git からデータをクローンします。
+Rem https:// からデータをクローンします。
 
 @echo on
 
-Set FILE_NAME=English
-Set BRANCH=main
-Set GIT_HTTP_PROXY=github.com/cpp-stdio/English.git
-Set GIT_PASSWORD=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
+Set FILE_NAME=XXXXX
+Set BRANCH=XXXXX
+Set GIT_HTTP_PROXY=XXXXX
+Set GIT_PASSWORD=XXXXX
 
 cd %~dp0%
 cd ../../

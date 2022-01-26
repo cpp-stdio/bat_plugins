@@ -1,17 +1,19 @@
-Rem https://github.com/cpp-stdio/English.git からデータをコミットします。
+Rem https:// からデータをコミットします。
 
 @echo on
 
-Set FILE_NAME=English
-Set BRANCH=main
-Set GIT_HTTP_PROXY=github.com/cpp-stdio/English.git
-Set GIT_PASSWORD=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
+Set FILE_NAME=XXXXX
+Set BRANCH=XXXXX
+Set GIT_HTTP_PROXY=XXXXX
+Set GIT_PASSWORD=XXXXX
 
 cd %~dp0%
-call %~dp0%GetCurrentTime\Pattern1.bat
+cd ../
+call get_current_time\Pattern1.bat
 
 @echo %CURRENT_TIME%に開始します
 
+cd %~dp0%
 cd ../../
 
 If Exist %FILE_NAME% (
