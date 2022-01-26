@@ -1,5 +1,5 @@
 ## bat_plugins information
-This program is a Windows patch (BAT) module.
+This program is a Windows patch (BAT) module.  
 It allows you to get the "git clone" "git commit and push" and many other things with just one line.
 So, it dramatically improves the maintainability and readability of the program.
 
